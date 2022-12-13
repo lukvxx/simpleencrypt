@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encryption</title>
+</head>
+<body>
+    <h2>Encrypt</h2>
+    <input type="text" id="value" placeholder="Value">
+    <input type="text" id="key" placeholder="key">
+    <button onclick="alert(ec(document.getElementById('value').value, document.getElementById('key').value))">Run</button>
+    <h2>Decrypt</h2>
+    <input type="text" id="value2" placeholder="Value">
+    <input type="text" id="key2" placeholder="key">
+    <button onclick="alert(dc(document.getElementById('value2').value, document.getElementById('key2').value))">Run</button>
+</body>
+<script src="script.js"></script>
+</html>

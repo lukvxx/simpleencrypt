@@ -3,12 +3,12 @@ Simple Encryption in js
 
 # Syntax
 Encryption
-```encrypt(value, key);```
+```ec(value, key);```
 
-```encrypt("test value", "secret") -> "ØĩķäľËÒãĩ"```
+```ec("test value", "secret") -> "çÊÖæêÔÑØ×"```
 
 Decryption
-```decrypt(value, key);```
+```dc(value, key);```
 
-```decrypt("ØĩķäľËÒãĩ", "secret") -> "test value"```
+```dc("çÊÖæêÔÑØ×", "secret") -> "test value"```
 
