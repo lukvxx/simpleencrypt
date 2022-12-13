@@ -1,5 +1,5 @@
 # simpleencrypt
-Simple Encryption in js
+This encryption is based on adding unicode char codes together. The logic is simple but effective.
 
 # Syntax
 Encryption
